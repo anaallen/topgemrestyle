@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar{
+    background-color: #9A5B95;
+    color: #F6F7EB;
+}
+
+.navbar-toggler{
+    color: #F6F7EB;
+}
+
+.bgimg img{
+    min-width: 100vw;
+    background-position: center;
+    background-size: cover;
+}
+.jumbotron{
+    background-image: url(assets/img/celestite.jpg);
+    color: #F6F7EB;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0%;
+}
+.lead{
+    font-size: 22px;
+}
+
+.btn{
+    background-color: #696DD7;
+    color: #F6F7EB;
+}
+.nav-item{
+    color: white;
+}
+.gradient{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.mainbody{
+    background-color: #8E999F;
+}
+.homebox{
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 250px;
+    max-height: 250px;
+    border-radius: 20%;
+}
+
+.filler{
+    min-height: 195px;
+}
+.minerals{
+    background-image: url(assets/img/mineral.jpeg);
+    background-size: cover;
+}
+
+.fossils{
+    background-image: url(assets/img/fossil.jpeg);
+    background-size: cover;
+}
+
+.finished{
+    background-image: url(assets/img/finished.jpeg);
+    background-size: cover;
+}
+
+.bulk{
+    background-image: url(assets/img/bulkrough.jpeg);
+    background-size: cover;
+}
+
+.boxes{
+    background-image: url(assets/img/boxes.jpeg);
+    background-size: cover;
+}
+.modal-content{
+    background-image: url(assets/img/modalimg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.modal-body{
+    background-color: rgba(184,190,191,.75)
+}
+
+.modal{
+    background-color: rgba(66,90,54,.2);
+}
+
+.footer{
+    background-image: url(assets/img/footerimg.jpeg);
+}
+
+.foottext{
+    font-size: 12px;
+}
+/*
+.homeboxes::after {
+    content: '';
+    background: url(image.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+}*/
+
